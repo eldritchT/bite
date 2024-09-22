@@ -4,7 +4,7 @@ Bite is a minimalistic CSS stylesheet that respects legacy devices and renders a
 Just put your content into a `bite-box` div.
 ### Code
 ```
-<link rel="stylesheet" href="https://raw.githubusercontent.com/eldritchT/bite/refs/heads/main/bite.css">
+<link rel="stylesheet" href="bite.css">
 <div class="bite-box">
     <h3>Hello World!</h3>
     <input type="text" placeholder="text"><br>
