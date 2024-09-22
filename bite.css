@@ -1,0 +1,66 @@
+.bite-box {
+    border: 1px solid lightgray;
+    padding: 9px;
+    background: linear-gradient(white, #eee), #eee;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.bite-box input {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 2px;
+}
+.bite-box button {
+    border: 1px solid #aaa;
+    background-color: #eee;
+    padding: 5px;
+    margin: 2px;
+}
+.bite-box input[type=button] {
+    border: 1px solid #aaa;
+    background-color: #eee;
+    padding: 5px;
+    margin: 2px;
+}
+.bite-box textarea {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 2px;
+    resize: none;
+    font-family: sans-serif;
+}
+.bite-box button:hover {
+    border: 1px solid #aaa;
+    background-color: #ddd;
+}
+.bite-box input[type=button]:hover {
+    border: 1px solid #aaa;
+    background-color: #ddd;
+}
+.bite-box p {
+    margin: 2px;
+}
+.bite-box a {
+    color: #4a6f8a;
+    text-decoration: underline;
+}
+.bite-box article {
+    border-left: 4px solid #ccc;
+    padding: 5px;
+    margin: 4px;
+}
+.bite-box blockquote {
+    margin: 2px;
+    border: 1px solid #aaa;
+    border-left: 4px solid #aaa;
+    padding: 5px;
+}
+.bite-box blockquote p{
+    margin-left: 0px;
+}
+.bite-box nav {
+    margin: 2px;
+}
+.bite-inline {
+    display: inline;
+}
