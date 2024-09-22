@@ -4,6 +4,7 @@
     background: linear-gradient(white, #eee), #eee;
     font-size: 15px;
     font-family: sans-serif;
+    overflow-x: auto;
 }
 .bite-box input {
     border: 1px solid #ccc;
