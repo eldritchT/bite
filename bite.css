@@ -50,6 +50,15 @@
     padding: 5px;
     margin: 4px;
 }
+.bite-box pre {
+    border: 1px solid #aaa;
+    border-left: 4px solid #aaa;
+    font-family: monospace;
+    overflow-x: auto;
+    background: linear-gradient(#eee, #ddd), #eee;
+    padding: 5px;
+    margin: 4px;
+}
 .bite-box blockquote {
     margin: 2px;
     border: 1px solid #aaa;
@@ -61,6 +70,9 @@
 }
 .bite-box nav {
     margin: 2px;
+}
+.bite-box details {
+    padding: 9px;
 }
 .bite-inline {
     display: inline;
