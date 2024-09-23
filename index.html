@@ -8,13 +8,39 @@
     <input type="url" placeholder="url"><br>
     <textarea rows="20" cols="40" placeholder="textarea"></textarea><br>
     <input type="button" placeholder="button" value="button"><br><br>
+    <P>This is a blockquote</P>
     <blockquote>
         <b>Cyn</b>
         <p>I see, you will not talk to me because I've hurt... your feelings</p>
     </blockquote><br>
+    <P>This is an article</P>
     <article>
         <b>Title idk</b>
         <p>Some very long boring ahh text with <a href="#">links and stuff</a> that no one will read for reasons 🤓</p>
     </article><br>
-    <a href="https://github.com/eldritchT/bite/">Bite on Github</a>
+    <pre>
+# This is a code block (<i>pre</i>)
+
+code = jsp.create_element("pre")
+code.inner_text = "monospace demo"
+code.style['font-family'] = "Cascadia Code"
+
+jsp.body().append_child(code)
+    </pre>
+    <pre class="bite-terminal">
+# This is a <kbd class="bite-terminal">bite-terminal</kbd> (also a <i>pre</i>, but with a class)
+
+<b>droneOS-js-armv7 v0.332.5</b> (pjbuild-4.32-nightly)
+<I>(c) JCJenson, 3042. All reserves righted. WHAT THE HELLLLLLLLLLLLLL</I>
+
+Last login: <b>Mon 01.01.3070 10:01</b>
+No password set.
+
+uzi@wd-core:~$ <kbd class="bite-terminal">eval print("Hello!")</kbd> 
+# User input is put in a kbd with <kbd class="bite-terminal"><b>bite-terminal</b></kbd> class.
+Hello!
+
+uzi@wd-core:~$ █
+    </pre>
+<a href="https://github.com/eldritchT/bite/">Bite on GitHub</a>
 </div>
